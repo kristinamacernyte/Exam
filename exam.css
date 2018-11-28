@@ -1,0 +1,396 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #fafafa;
+  color: snow;
+  margin: 0;
+}
+
+.picture {
+  background: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.3)), url('yellow.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  color: #FFF;
+  margin: 0 auto;
+  background-position: 70%;
+
+}
+
+.container1 {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  top: 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+}
+
+.text {
+  margin: 0;
+}
+
+.pirmas {
+  flex: 2;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.buttontoclick {
+  flex: 1;
+  padding: 30px;
+
+}
+
+.connect {
+  padding: 10px;
+  text-align: center;
+  font-size: 11px;
+  background-color: #00aca8;
+  letter-spacing: 1px;
+}
+
+.logotipas {
+  color: inherit;
+  font-family: fantasy;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.navmenu {
+  padding-right: 30px;
+}
+
+.container2 {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.flexcontainer {
+  display: flex;
+
+}
+
+.container2 h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: dimgray;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.img5 {
+  background-image: url('img5.jpeg');
+  height: 500px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  margin: 0 16px 16px 0;
+  background-position: 50%;
+}
+
+.img1 {
+  background-image: url('eg5.jpg');
+  height: auto;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-right: 16px solid #fff;
+  border-bottom: 16px solid #fff;
+  box-sizing: border-box;
+  background-position: 50%;
+}
+.img2 {
+  background-image: url('eg2.jpg');
+  height: auto;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-right: 16px solid #fff;
+  border-bottom: 16px solid #fff;
+  box-sizing: border-box;
+  background-position: 50%;
+}
+
+.img3 {
+  background-image: url('eg3.jpg');
+  height: auto;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-right: 16px solid #fff;
+  border-bottom: 16px solid #fff;
+  box-sizing: border-box;
+  background-position: 50%;
+}
+
+.img4 {
+  background-image: url('eg4.jpg');
+  height: auto;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-right: 16px solid #fff;
+  border-bottom: 16px solid #fff;
+  box-sizing: border-box;
+  background-position: 50%;
+}
+
+.container3 {
+  width: 100%;
+  height: 700px;
+  background: #674ea0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+  color: #FFF;
+}
+
+.questions {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.formcontacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name, .surname {
+  width: 200px;
+  height: 24px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.emailaddress label {
+  display: block;
+  color: #fff;
+  padding-bottom: 6px;
+}
+
+.emailaddress {
+  margin-top: 10px;
+}
+
+.contactsname label {
+  display: block;
+  color: #fff;
+  padding-bottom: 6px;
+
+}
+
+.contactsname {
+  margin-right: 10px;
+}
+
+.contactssurname label {
+  display: block;
+  color: #fff;
+  padding-bottom: 6px;
+}
+
+.email {
+box-sizing: border-box;
+width: 100%;
+height: 24px;
+font-size: 18px;
+}
+
+textarea {
+margin: 50px auto;
+border: 0;
+height: 200px;
+font-size: 18px;
+width: 100%;
+box-sizing: border-box;
+overflow: auto;
+}
+
+.submitbutton {
+  padding: 10px;
+  text-align: center;
+  font-size: 11px;
+  background-color: #00aca8;
+  letter-spacing: 1px;
+}
+
+.baricon {
+  display: none;
+}
+
+#scroll-top {
+  color: pink;
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.drop-down {
+  list-style: none;
+  padding-left: 0;
+  transition: height 0.2s;
+  overflow: hidden;
+  height: 0px;
+}
+
+.drop-down--active {
+  height: 130px;
+}
+
+.option1 {
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 0 22px;
+
+}
+
+#topnav {
+  text-align: end;
+  transition: lenght 0.4s;
+  overflow: hidden;
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  color: #FFF;
+  right: 14px;
+  line-height: 30px;
+  font-weight: bolder;
+}
+
+.Opcijosmygtukas {
+  font-size: x-large;
+}
+
+#topnav:hover {
+  cursor: pointer;
+}
+
+.sidenav {
+    display: none;
+}
+
+@media (max-width: 776px) {
+  .navmenu {
+    display: none;
+  }
+
+  .baricon {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding-right: 30px;
+  }
+
+  .baricon:hover {
+    cursor: pointer;
+  }
+
+  .bottom {
+    display: inline-block;
+    padding: 150px 0;
+  }
+
+  .buttontoclick {
+    height: 93px;
+    width: 40%;
+    margin: 0 auto;
+    padding: 93px;
+  }
+
+  .flexcontainer {
+    display: block;
+  }
+  .flex2 {
+    height: 400px;
+  }
+
+  .formcontacts {
+    display: block;
+  }
+
+  .forma {
+    width: 50%;
+  }
+
+  .name, .surname {
+    width: 100%;
+
+  }
+
+  .contactsname {
+    margin-right: 0;
+  }
+
+  .contactssurname label, .contactsname label {
+    margin-top: 10px;
+  }
+
+  .sidenav {
+    display: inline-block;
+    position: absolute;
+  }
+
+  .mobilediv {
+    color: antiquewhite;
+    list-style: none;
+    padding-left: 0;
+    transition: height 0.2s;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+  }
+
+  .sidenav {
+    margin: 0 auto;
+    position: absolute;
+    height: 2000px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobiledd {
+    list-style: none;
+
+  }
+
+
+
+@media (max-width: 494px) {
+  .buttontoclick {
+    padding: 70px;
+  }
+}
